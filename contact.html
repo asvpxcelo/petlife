@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="mobile.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:321px) and (max-width:1024px)" href="mobile.css">
+    <title>Pet's Life</title>
+    <link rel="shorcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <h1 id="topo"><a href="index.html">Pet Life</a></h1>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">PET HEALTH</a></li>
+                <li><a href="contact.html" class="current">CONTACT </a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span>Contact Us</span></h1>
+            <p>Please Fill out the form below to contact</p>
+            <form id="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label><textarea
+                 name="message" id="message"></textarea>
+                </div>
+                <button  type
+                submit class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="box">
+            <i class="fas fa-location-arrow fa-3x"></i>
+            <h3> Location</h3>
+            <p>Avenida Marques de Paraná, 50, Niterói - Rio de Janeiro</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3 id="alo">Contact</h3>
+            <p>(21)3333-5555</p>
+            <p>Emergências 24h</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope fa-3x "></i>
+            <h3>Email Address</h3>
+            <p>frontpetlife@live.com</p>
+        </div>
+    </section>
+    <div class="clr"></div>
+<footer id="main-footer">
+    <p>Pet's Life &copy; Marcelo Soares, 2k21</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
